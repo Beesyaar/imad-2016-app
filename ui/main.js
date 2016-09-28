@@ -1,2 +1,2 @@
 console.log('Loaded!');
-prompt ();
+confirm (Click);
