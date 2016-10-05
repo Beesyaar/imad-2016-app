@@ -16,8 +16,8 @@ app.get('/hashim', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'hashim.html'));
 });
 
-app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+app.get('/ui/tux.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'tux.png'));
 });
 
 
