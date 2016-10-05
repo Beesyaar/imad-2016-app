@@ -12,8 +12,8 @@ app.get('/', function (req, res) {
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
-app.get('/hashim', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'hashim.html'));
+app.get('/add urls', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'add urls.html'));
 });
 
 app.get('/ui/tux.png', function (req, res) {
